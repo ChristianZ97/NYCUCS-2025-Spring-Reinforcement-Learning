@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+runs/
+tb_record*/
+!results/checkpoints/
+!results/checkpoints/*.pth

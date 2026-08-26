@@ -1,0 +1,6 @@
+method,action_metric_percent,action_metric_name,reason_f1_percent,clip_score_percent,provenance
+ground_truth,100.00,f1,100.00,91.32,final report
+pretrained_vlm,0.00,f1,0.00,0.00,final report
+sft_10_epochs,80.15,f1,66.75,,final report
+rloo_3_epochs,,,,41.88,final report
+rloo_then_sft_3_epochs_each,84.12,accuracy_or_f1,0.00,,final report body and embedded poster disagree

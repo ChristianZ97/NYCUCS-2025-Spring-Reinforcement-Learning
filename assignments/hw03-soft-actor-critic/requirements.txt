@@ -1,0 +1,7 @@
+numpy
+torch
+gymnasium[classic-control,mujoco]
+tqdm
+
+# Optional experiment tracking is deliberately not installed by default:
+# wandb

@@ -1,0 +1,42 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Private or externally supplied datasets
+/final-project/data/
+
+# Generated experiment artifacts
+**/wandb/
+**/runs/
+**/logs/
+**/tb_record*/
+**/events.out.tfevents.*
+**/checkpoints*/
+**/preTrained/
+**/outputs/
+*.log
+
+# Generated media
+*.mp4
+*.mov
+*.avi

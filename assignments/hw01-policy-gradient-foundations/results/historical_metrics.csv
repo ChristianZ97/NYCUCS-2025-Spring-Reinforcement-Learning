@@ -1,0 +1,7 @@
+algorithm,environment,variant,learning_rate,gae_lambda,episodes_at_stop,configured_ewma_threshold,final_ewma_reward,peak_episode_reward,max_episode_length,checkpoint,status
+REINFORCE,CartPole-v0,vanilla,0.008,,919,195,195.110,200.000,200,checkpoints/CartPole_0.008.pth,historical
+REINFORCE,LunarLander-v2,value baseline,0.0001,,3683,120,121.010,244.083,1000,checkpoints/LunarLander_0.0001.pth,historical
+REINFORCE,LunarLander-v2,value baseline alternate,0.0001,,9843,120,120.831,253.661,1000,,historical
+REINFORCE,LunarLander-v2,GAE,0.0001,0.8,6856,120,123.065,255.718,1000,checkpoints/LunarLander_0.0001_lambda_0.8_pc.pth,historical
+REINFORCE,LunarLander-v2,GAE,0.0001,0.92,11559,120,122.472,290.702,1000,checkpoints/LunarLander_0.0001_lambda_0.92_pc.pth,historical
+REINFORCE,LunarLander-v2,GAE,0.0001,0.98,9982,120,120.070,252.318,1000,checkpoints/LunarLander_0.0001_lambda_0.98_pc.pth,historical

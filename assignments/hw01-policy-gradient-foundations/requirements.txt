@@ -1,0 +1,9 @@
+# Historical compatibility environment (Python 3.8).
+numpy==1.23.5
+torch==2.1.2
+tensorboard==2.14.0
+gym==0.23.1
+box2d-py==2.3.5
+pygame==2.1.3
+d4rl==1.1
+mujoco-py==2.1.2.14

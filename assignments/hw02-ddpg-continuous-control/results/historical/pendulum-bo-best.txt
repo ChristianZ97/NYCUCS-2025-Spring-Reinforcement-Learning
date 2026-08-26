@@ -1,0 +1,11 @@
+gamma = 0.98
+tau = 0.001
+noise_scale = 0.05
+lr_a = 0.0001
+lr_c = 0.0005999999999999997
+updates_per_step = 1
+hidden_size = 128
+batch_size = 64
+warn_up = 3000
+random_seed = 88
+Best reward: -1348.14
