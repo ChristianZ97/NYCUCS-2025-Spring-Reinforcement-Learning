@@ -1,13 +1,14 @@
-# Private grading provenance
+# Submission provenance
 
-Exact grading artifacts are intentionally not copied into this portfolio-facing
-directory. They remain recoverable from the private `legacy` branch at exact
-pre-curation commit
+The exact submitted report is published as [`report.pdf`](report.pdf),
+byte-for-byte unchanged from the private `legacy` branch at exact pre-curation
+commit
 `14c78350cc80c564ce9b1f7abedb4c44075c0626`.
 
-The omission is deliberate:
+The report intentionally retains the author name, student identifier, and
+school email address present at submission time. The remaining omissions are
+deliberate:
 
-- the report contains a name, student identifier, and email address;
 - the handout is course-owned and has no redistribution license;
 - the grading ZIP contains a derivative of the supplied course scaffold and
   has no redistribution license;
@@ -33,9 +34,9 @@ working files at the pre-curation commit. The submitted actor and critic were
 byte-identical to the grading-era Pendulum checkpoint pair. `unzip -t` reported
 no archive errors.
 
-For completeness, the private report SHA-256 is
-`6e7ba9144fa7a0e85cd3d7a35a627948a671f7dfd6f88951bab69da3d7858227`
-and the private handout SHA-256 is
+The public [`report.pdf`](report.pdf) SHA-256 is
+`6e7ba9144fa7a0e85cd3d7a35a627948a671f7dfd6f88951bab69da3d7858227`.
+The private handout SHA-256 is
 `7aac52eab3437810ed3a76f30ebdf63e6671205832494b7c95d7899f3257fae8`.
 
 ## Missing grading deliverables

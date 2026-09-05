@@ -23,21 +23,23 @@ src/                         canonical portfolio implementations
 results/historical_metrics.csv
 results/checkpoints/         representative historical state dictionaries
 submission/README.md         private-provenance manifest and omission record
+submission/report.pdf        byte-exact submitted report
 requirements.txt             historical compatibility environment
 ```
 
-The exact grading ZIP, report, course handout, and starter-derived submitted
+The exact report is published at [`submission/report.pdf`](submission/report.pdf)
+and retains its original identity, contact, repository, and screenshot path
+information. The grading ZIP, course handout, and starter-derived submitted
 sources remain recoverable from the private `legacy` branch at commit
-`14c78350cc80c564ce9b1f7abedb4c44075c0626`. They are intentionally absent
-from the portfolio-facing tree because the report contains identity-bearing
-material and the redistribution status of the course handout and starter
-scaffold is unclear. See
-[`submission/README.md`](submission/README.md) for the complete hash manifest.
+`14c78350cc80c564ce9b1f7abedb4c44075c0626` because their redistribution status
+is unclear. See [`submission/README.md`](submission/README.md) for the complete
+hash manifest.
 
 The canonical sources are cleaned derivatives of that grading-time work and
 may retain elements of the course scaffold. The exact handout, starter bundle,
-and grading artifacts remain excluded; permission to publish this cleaned
-portfolio version was confirmed before release.
+grading ZIP, and submitted source members remain excluded; the report is the
+explicit byte-exact exception. Permission to publish this portfolio version
+was confirmed before release.
 
 ## Environment
 

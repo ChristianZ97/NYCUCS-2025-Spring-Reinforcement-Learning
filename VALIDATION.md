@@ -45,11 +45,12 @@ private `legacy` branch points to the exact curation baseline
 - All seven retained PyTorch ZIP containers pass CRC and path-safety checks.
   The three retained PNG figures have valid headers and were visually
   inspected.
-- Current filenames, text, checkpoint metadata, and result artifacts were
-  scanned for identifiers, email addresses, credentials, private keys,
-  workstation names, and private paths. No configured sensitive pattern
-  remains. Apparent Windows-path byte sequences inside tensor data were random
-  numeric payload, not checkpoint metadata.
+- During the original curation, portfolio filenames, source, checkpoint
+  metadata, and result artifacts were scanned for identifiers, email addresses,
+  credentials, private keys, workstation names, and private paths. No
+  configured sensitive pattern remained in that sanitized surface. The exact
+  reports and presentations added on 2026-09-05 are an explicit, documented
+  exception and intentionally retain their submitted identity metadata.
 - Independent read-only reviewers covered every canonical project. Their
   findings were fixed and narrowly re-reviewed before staging.
 
@@ -66,7 +67,8 @@ private `legacy` branch points to the exact curation baseline
   review.
 - Historical figures and tables were not regenerated from the cleaned source
   and are labeled accordingly.
-- This public release contains only the sanitized `main` snapshot. The
-  `legacy` branch remains on the separate private source remote and is not
+- This public release combines sanitized portfolio source with the exact
+  student-authored documents inventoried in [`SUBMISSIONS.md`](SUBMISSIONS.md).
+  The `legacy` branch remains on the separate private source remote and is not
   published here. Collaborator and course-staff permission for this portfolio
   publication was confirmed before release.

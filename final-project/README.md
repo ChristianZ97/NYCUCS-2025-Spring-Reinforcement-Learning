@@ -6,8 +6,9 @@ model scores image/description alignment, RLOO improves description generation,
 and a second supervised stage maps the image and generated caption to a driving
 action.
 
-The portfolio surface does not imply sole authorship. Personal contact details
-and the identity-bearing team report remain on the private `legacy` branch.
+The portfolio surface does not imply sole authorship. The original team report
+and milestone documents are published under [`submission/`](submission/) with
+all submitted contributor identities and contact details intact.
 
 ## Implementation
 
@@ -109,12 +110,12 @@ The report identifies limited model capacity, reward collapse, and action-format
 collapse as important limitations; the retained numbers should not be read as a
 production autonomous-driving claim.
 
-[`submission/README.md`](submission/README.md) records the exact private
-artifact manifest and hashes. The submitted archive, report, proposal, poster,
-feedback, presentation, and toy-study documents are intentionally excluded from
-the portfolio tree because they contain identities, collaborator contact
-details, course-owned material, or redundant packaging metadata. They remain
-recoverable byte-for-byte on the private `legacy` branch.
+[`submission/README.md`](submission/README.md) records the exact artifact
+manifest and hashes. The report, proposal, two poster versions,
+theoretical presentation, and toy-study document are published there
+byte-for-byte. The submitted code archive, poster feedback, course guidelines,
+and redundant packaging metadata remain recoverable only on the private
+`legacy` branch.
 
 ## Known implementation limits
 

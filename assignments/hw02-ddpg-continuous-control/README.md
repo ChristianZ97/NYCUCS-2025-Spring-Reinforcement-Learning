@@ -15,17 +15,18 @@ provenance recoverable from the private `legacy` branch.
   portfolio-time checkpoint comparison.
 - `results/historical/` contains compact, grading-era evidence from an
   unsuccessful Pendulum hyperparameter search.
-- `submission/README.md` records the exact private grading manifest and its
-  hashes. Restricted and identity-bearing originals are not published here.
+- `submission/report.pdf` is the byte-exact submitted report, and
+  `submission/README.md` records the complete grading manifest and hashes.
 
-The theoretical answers, assignment handout, identity-bearing report, exact
-grading archive, course starter scaffold, raw TensorBoard events, and redundant
-experiment trees are intentionally absent from the portfolio tree.
+The report intentionally retains its original identity and contact details.
+The assignment handout, exact grading archive, course starter scaffold, raw
+TensorBoard events, and redundant experiment trees remain absent from the
+portfolio tree.
 
 The canonical sources are cleaned derivatives of grading-time code that
-included course scaffolding. Exact starter and grading artifacts remain
-excluded; permission to publish this cleaned portfolio version was confirmed
-before release.
+included course scaffolding. Exact starter and source/archive artifacts remain
+excluded; the report is the explicit byte-exact exception. Permission to
+publish this portfolio version was confirmed before release.
 
 ## Lineage and scope
 

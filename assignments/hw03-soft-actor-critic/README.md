@@ -22,21 +22,23 @@ assignments/hw03-soft-actor-critic/
 │   ├── halfcheetah-summary.json
 │   └── halfcheetah-hyperparameters.json
 ├── submission/
-│   └── README.md
+│   ├── README.md
+│   └── report.pdf
 ├── requirements.txt
 └── README.md
 ```
 
-`src/` is the cleaned portfolio implementation. Exact grading artifacts are a
-separate provenance product and are intentionally not published; their hashes
-and private recovery point are recorded in
-[`submission/README.md`](submission/README.md).
+`src/` is the cleaned portfolio implementation. The exact submitted report is
+published at [`submission/report.pdf`](submission/report.pdf); the source ZIP
+and course handout remain private. Their hashes and recovery point are recorded
+in [`submission/README.md`](submission/README.md).
 
 ## Redistribution status
 
 The canonical sources remain derivatives of course-provided starter
-scaffolding. Exact starter and grading artifacts remain excluded; permission to
-publish this cleaned portfolio version was confirmed before release.
+scaffolding. Exact starter/source artifacts remain excluded; the report is an
+explicit byte-exact exception. Permission to publish the portfolio and original
+document was confirmed before release.
 
 ## Setup and use
 

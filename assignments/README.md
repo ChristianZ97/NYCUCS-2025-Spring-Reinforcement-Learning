@@ -14,14 +14,14 @@ learning course.
 Each assignment presents its canonical portfolio implementation under `src/`,
 project dependencies in `requirements.txt`, and compact representative
 measurements under `results/`. Its `submission/README.md` records exact private
-grading provenance without copying identity-bearing or redistribution-restricted
-artifacts into the portfolio tree.
+grading provenance, and `submission/report.pdf` preserves the original report
+without modification.
 
 Canonical sources are cleaned derivatives rather than byte-exact submissions.
-Exact grading packages, reports, course-owned material, raw logs, redundant
-checkpoints, and experiment sweeps remain recoverable from the private
-`legacy` history. Historical figures and tables are not presented as fresh
-benchmarks of the portfolio source.
+Exact reports are public with their original identity information; grading
+ZIPs, course-owned material, raw logs, redundant checkpoints, and experiment
+sweeps remain recoverable from the private `legacy` history. Historical figures
+and tables are not presented as fresh benchmarks of the portfolio source.
 
 Several workloads require legacy Gym, Box2D, D4RL, MuJoCo, downloaded datasets,
 or accelerator hardware. Each assignment README distinguishes what was

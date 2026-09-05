@@ -1,19 +1,19 @@
-# Private grading provenance
+# Submission provenance
 
-Exact grading artifacts are intentionally omitted from this portfolio tree.
-They remain byte-for-byte recoverable from the private `legacy` branch, whose
-tip is the exact pre-curation commit:
+The exact submitted report is published here as [`report.pdf`](report.pdf).
+It is byte-for-byte identical to the report on the private `legacy` branch,
+whose tip is the exact pre-curation commit:
 
 ```text
 14c78350cc80c564ce9b1f7abedb4c44075c0626
 ```
 
-The report contains a student name, identifier, email address, personal
-repository URL, and local user paths in screenshots. The course handout and
-starter-derived source have unclear redistribution permission. Consequently,
-the exact report, handout, ZIP, and submitted source members stay only in the
-private legacy history. Files under `src/` are cleaned portfolio derivatives,
-not exact submissions.
+The report intentionally retains the student name, identifier, email address,
+personal repository URL, and local user paths visible in screenshots. The
+course handout and starter-derived source have unclear redistribution
+permission, so the exact handout, ZIP, and submitted source members stay only
+in the private legacy history. Files under `src/` are cleaned portfolio
+derivatives, not exact submissions.
 
 ## Grading artifacts
 
@@ -23,7 +23,7 @@ the exact paths.
 | Artifact | SHA-256 |
 |---|---|
 | Submitted source ZIP | `6f396afd43aaa2f831d0bbfc25c0dd7fe58122c744a17bede3638496d29d6cf0` |
-| Submitted report PDF | `fdeb3772727b01e60e09c36d5c9155dbc8e8ed8b6dc2152f50840e11b7b2ee80` |
+| Submitted report PDF ([`report.pdf`](report.pdf)) | `fdeb3772727b01e60e09c36d5c9155dbc8e8ed8b6dc2152f50840e11b7b2ee80` |
 | Course handout PDF | `4f75bd01a04a2db87ba0679cc2d5651862b69b71d205f884a899869e3d2fbed1` |
 
 The ZIP passed a complete archive-integrity check and contains exactly 14

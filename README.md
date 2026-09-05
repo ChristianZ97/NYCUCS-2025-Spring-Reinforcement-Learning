@@ -23,15 +23,18 @@ final-project/ Team VLM alignment pipeline and selected historical results
 
 Each project exposes its cleaned portfolio implementation under `src/`,
 dependencies in `requirements.txt`, representative measurements under
-`results/`, and a private grading manifest under `submission/README.md`.
+`results/`, and exact student-authored reports plus a provenance manifest under
+`submission/`.
 Measurements are labeled **historical** unless they were regenerated from the
 cleaned source.
 
-Identity-bearing reports and archives, course-owned handouts and starter
-bundles, raw TensorBoard/W&B output, tuning sweeps, redundant checkpoints, and
-presentation feedback remain on `legacy`. The portfolio-facing `main` history
-is deliberately independent of that provenance history. Cleaned files under
-`src/` are derivatives and are never represented as exact submissions.
+The original reports and final-project milestone documents are intentionally
+published byte-for-byte and retain their historical identity and contact
+details. Source archives, course-owned handouts and starter bundles, raw
+TensorBoard/W&B output, tuning sweeps, redundant checkpoints, and presentation
+feedback remain on `legacy`. See [`SUBMISSIONS.md`](SUBMISSIONS.md) for the
+document inventory and hashes. Cleaned files under `src/` are derivatives and
+are never represented as exact submissions.
 
 ## Reproducibility
 
@@ -49,12 +52,12 @@ executed, static, provenance, and residual validation record.
 
 ## Publication
 
-This public repository contains only the sanitized portfolio `main` snapshot.
-The private source repository keeps a separate `legacy` branch with personal
-metadata, restricted course artifacts, and other provenance material; that
-branch and its history are not published here. Publication permission for the
-team and course-derived portions was confirmed with the relevant collaborators
-and course staff.
+This public repository combines sanitized portfolio source with explicitly
+identified, unredacted original submission documents. The private source
+repository keeps a separate `legacy` branch with restricted course artifacts
+and the remaining provenance material; that branch and its history are not
+published here. Publication permission for the team and course-derived
+portions was confirmed with the relevant collaborators and course staff.
 
 ## Academic Use
 
