@@ -1,3 +1,5 @@
+> Specification update (2026-10-06): original course specifications are now included; see [SPECS.md](../SPECS.md). Earlier handout-exclusion statements below describe the previous curation scope. Other exclusions remain unchanged.
+
 # Label-Efficient VLM Fine-Tuning for Autonomous Driving
 
 This team project adapts REINFORCE Leave-One-Out (RLOO) to fine-tune a
@@ -136,3 +138,10 @@ and redundant packaging metadata remain recoverable only on the private
   submitted implementation and canonical scripts consume one image per record.
 - Full equivalence and performance validation require the private datasets,
   reward checkpoint, VLM checkpoints, and a suitable CUDA runtime.
+
+## Original Assignment Specifications
+
+- [RL2025_Team_Project_Guidelines.pdf](spec/RL2025_Team_Project_Guidelines.pdf)
+- [RL2025_Team_Project_Guidelines_Example.pdf](spec/RL2025_Team_Project_Guidelines_Example.pdf)
+
+Original course materials are preserved byte for byte. See the root [specification inventory](../SPECS.md) for source paths and hashes. This inclusion supersedes older notes that the handouts remain private.

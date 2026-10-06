@@ -1,3 +1,5 @@
+> Specification update (2026-10-06): original course specifications are now included; see [SPECS.md](../../SPECS.md). Earlier handout-exclusion statements below describe the previous curation scope. Other exclusions remain unchanged.
+
 # Homework 1: Policy-Gradient Foundations
 
 This portfolio version presents the five implementation deliverables from the
@@ -133,3 +135,9 @@ results.
   import required a minimal in-memory pygame shim; no pygame API was exercised.
   Box2D, D4RL, and MuJoCo remained unavailable, so LunarLander and dataset
   commands received static rather than end-to-end validation.
+
+## Original Assignment Specifications
+
+- [Spring2025_RL_HW1.pdf](spec/Spring2025_RL_HW1.pdf)
+
+Original course materials are preserved byte for byte. See the root [specification inventory](../../SPECS.md) for source paths and hashes. This inclusion supersedes older notes that the handouts remain private.

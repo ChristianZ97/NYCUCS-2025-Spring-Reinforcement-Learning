@@ -1,3 +1,5 @@
+> Specification update (2026-10-06): original course specifications are now included; see [SPECS.md](../../SPECS.md). Earlier handout-exclusion statements below describe the previous curation scope. Other exclusions remain unchanged.
+
 # Homework 2: DDPG for Continuous Control
 
 This portfolio contains the implementation work for the continuous-control
@@ -161,3 +163,9 @@ tensors. The selected actor received the independent dynamics evaluation
 described above. The local curation environment did not contain Gymnasium or a
 MuJoCo runtime, so no canonical training run or real-environment HalfCheetah
 execution is claimed.
+
+## Original Assignment Specifications
+
+- [Spring2025_RL_HW2.pdf](spec/Spring2025_RL_HW2.pdf)
+
+Original course materials are preserved byte for byte. See the root [specification inventory](../../SPECS.md) for source paths and hashes. This inclusion supersedes older notes that the handouts remain private.

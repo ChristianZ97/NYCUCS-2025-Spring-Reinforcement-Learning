@@ -1,3 +1,5 @@
+> Specification update (2026-10-06): original course specifications are now included; see [SPECS.md](SPECS.md). Earlier handout-exclusion statements below describe the previous curation scope. Other exclusions remain unchanged.
+
 # Original submission documents
 
 These documents are preserved byte-for-byte from the private `legacy` source

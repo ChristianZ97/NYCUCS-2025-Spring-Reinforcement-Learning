@@ -1,3 +1,5 @@
+> Specification update (2026-10-06): original course specifications are now included; see [SPECS.md](../SPECS.md). Earlier handout-exclusion statements below describe the previous curation scope. Other exclusions remain unchanged.
+
 # Assignments
 
 This directory contains three assignments from a Spring 2025 reinforcement

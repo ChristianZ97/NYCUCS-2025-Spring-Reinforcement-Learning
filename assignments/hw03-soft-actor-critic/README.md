@@ -1,3 +1,5 @@
+> Specification update (2026-10-06): original course specifications are now included; see [SPECS.md](../../SPECS.md). Earlier handout-exclusion statements below describe the previous curation scope. Other exclusions remain unchanged.
+
 # Soft Actor-Critic for Continuous Control
 
 This project implements the original value-network variant of Soft Actor-Critic
@@ -121,3 +123,9 @@ The cleanup intentionally did not redesign the training algorithm:
 
 These choices matter when comparing against the historical plots. Change them
 only as a separately documented experiment.
+
+## Original Assignment Specifications
+
+- [Spring2025_RL_HW3_updated.pdf](spec/Spring2025_RL_HW3_updated.pdf)
+
+Original course materials are preserved byte for byte. See the root [specification inventory](../../SPECS.md) for source paths and hashes. This inclusion supersedes older notes that the handouts remain private.

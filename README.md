@@ -1,3 +1,5 @@
+> Specification update (2026-10-06): original course specifications are now included; see [SPECS.md](SPECS.md). Earlier handout-exclusion statements below describe the previous curation scope. Other exclusions remain unchanged.
+
 # Reinforcement Learning Portfolio
 
 Coursework from a Spring 2025 reinforcement learning course. The repository
@@ -65,3 +67,7 @@ This repository is shared as a portfolio and learning reference. Current
 students should follow their institution's academic-integrity rules and should
 not submit this work as their own. Unless a file states otherwise, no license
 is granted for copying or redistribution.
+
+## Original Assignment Specifications
+
+[SPECS.md](SPECS.md) indexes the recovered original handouts and their SHA-256 hashes. Each assignment/lab stores its documents under `spec/`.
